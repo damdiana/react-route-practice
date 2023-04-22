@@ -51,7 +51,9 @@ const router = createBrowserRouter([
       ],
     }]
   },
-]);
+], {
+  basename: '/react-route-practice'
+});
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
